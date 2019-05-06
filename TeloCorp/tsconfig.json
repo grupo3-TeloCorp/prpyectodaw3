@@ -1,7 +1,17 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
-    "baseUrl": "./",
+    "baseUrl": "src",
+    "paths": {
+      "@services/*": ["app/services/*"],
+      "@material": ["app/material"],
+      "@shared/*": ["app/shared/*"],
+      "@pipes/*": ["app/pipes"],
+      "@directives/*": ["app/directives"],
+      "@env/*": ["environments/*"],
+      "@negocio/*": ["app/negocio/*"],
+      "@img/": ["assets/img/*"]
+    },
     "outDir": "./dist/out-tsc",
     "sourceMap": true,
     "declaration": false,
