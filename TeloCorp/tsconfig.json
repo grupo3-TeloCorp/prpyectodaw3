@@ -6,8 +6,6 @@
       "@services/*": ["app/services/*"],
       "@material": ["app/material"],
       "@shared/*": ["app/shared/*"],
-      "@pipes/*": ["app/pipes"],
-      "@directives/*": ["app/directives"],
       "@env/*": ["environments/*"],
       "@negocio/*": ["app/negocio/*"],
       "@img/": ["assets/img/*"]
